@@ -1,0 +1,553 @@
+@charset "UTF-8";
+
+/* ----------------- Reset all styles ----------------- */
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+/* ----------------- Website background and general text colour ----------------- */
+
+body{
+	/* background-image:url(../images/backgroundtexture.png); */
+	background-color:#232B2B;
+	color:#909998;
+}
+
+/* ----------------- Wrapper - keeps all content in the center of page -----------------  */
+
+.wrapper{
+	margin:auto;
+	width:80%;
+	height:auto;
+}
+
+/* The rest is pretty self explanatory - it appears in the order that it occurs on the HTML document */
+
+#top{
+	height:40px;
+}
+
+#logo{
+	margin-top:5%;
+	text-decoration:none;
+}
+
+#logoimage{
+	width:27px;
+	padding-right:10px;
+	float:center;
+	margin: 5% 0 5% 0;
+}
+
+#logotitle{
+	float:left;
+	font-family: 'Dr Sugiyama', cursive;
+	font-weight:normal;
+	font-size:500%;
+	color:#dc3d24;
+	position:relative;
+}
+
+#logotitle a{
+	float:left;
+	font-family: 'Dr Sugiyama', cursive;
+	font-weight:normal;
+	font-size:500%;
+	color:#dc3d24;
+	position:relative;
+	text-decoration:none;
+}
+
+nav{
+	float:right;
+	width:400px;
+	display:block;
+	height:10px;
+}
+
+nav ul li{
+	display:block;
+	width:25%;
+	float:right;
+	text-align:right;	
+	position:relative;
+}
+
+nav ul li a{
+	font-family: 'Syncopate', sans-serif;
+	width:90%;
+	min-width: 10%;  	/* Give the value as per your need */	
+	text-decoration:none;
+	font-weight:400;
+	line-height:500%;
+	display:justify;
+	color:#e3ae57;	
+}
+
+nav ul li a:hover{
+	font-family: 'Syncopate', sans-serif;
+	width:90%;
+	text-decoration:none;
+	font-weight:400;
+	font-size:100%;
+	line-height:500%;
+	display:center;
+	color:#dc3d24;
+}
+
+nav ul li p{
+	font-family: 'Syncopate', sans-serif;
+	width:90%;
+	text-decoration:none;
+	font-weight:400;
+	font-size:100%;
+	line-height:500%;
+	display:center;
+	color:#000;
+}
+
+hr{
+	height:2px;
+	width:100%;
+	float:left;
+	background-color:#e3ae57;
+	margin:3% 0;
+}
+
+header{
+	width:100%;
+	display:center;
+	/* margin:5% 0 5% 0; */
+}
+
+header h1{
+	font-family: 'Limelight', cursive;
+	text-align:center;
+	font-size:500%;
+	font-weight:bold;
+	color:#fff;
+	min-width:70%;	
+}
+
+header h2{
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+	font-size:125%;
+	font-weight:normal;
+	margin-top:2%;
+	margin-bottom:4%;
+	color:#dc3d24;
+	letter-spacing:10px;
+}
+
+header p{
+	font-family: 'Poiret One', cursive;
+	font-size:100%;
+	line-height:140%;
+	text-align:justify;
+	font-weight:normal;
+	letter-spacing:0px;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+
+header a{
+	font-family: 'Poiret One', cursive;
+	font-size:100%;
+	line-height:140%;
+	text-align:justify;
+	font-weight:normal;
+	letter-spacing:0px;
+	margin-top:2%;
+	margin-bottom:5%;
+	color:#e3ae57;
+	text-decoration:none;
+}
+
+header a:hover{
+	color:#dc3d24;
+}
+		
+#workbody{
+	width:80%;
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#workbody img{
+	width:100%;
+	border-radius:10px;
+	text-align:center;
+}
+
+#workbody iframe.vimeo{
+	width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* #workbody video{
+	width:100%;
+	border-radius:10px;
+	text-align:center;
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+} */
+
+#workbody h5{
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+	font-size:125%;
+	font-weight:normal;
+	margin-top:2%;
+	margin-bottom:2%;
+	color:#fff;
+	letter-spacing:10px;
+	border-radius:0 0 10px 10px;
+}
+
+#workbody h5 a{
+	font-family: 'Poiret One', cursive;
+	font-weight:normal;
+	letter-spacing:10px;
+	color:#e3ae57;
+	text-decoration:none;
+}
+
+#workbody h5 a:hover{
+	color:#dc3d24;
+}
+
+#workbody p{
+	font-family: 'Poiret One', cursive;
+	font-size:100%;
+	line-height:140%;
+	text-align:center;
+	font-weight:normal;
+	letter-spacing:0px;
+	margin-top:2%;
+	margin-bottom:5%;
+}
+
+#workbody p a{
+	font-family: 'Poiret One', cursive;
+	font-weight:normal;
+	letter-spacing:0px;
+	color:#e3ae57;
+	text-decoration:none;
+}
+
+#workbody p a:hover{
+	color:#dc3d24;
+}
+
+#workbody h6{
+	text-align:center;
+}
+
+#workbody h6 .augment_button img{
+	float:center;
+	width:auto;
+	border-radius:0px;
+	text-align:center;
+	font-family: 'Poiret One', cursive;
+	font-size:125%;
+	font-weight:normal;
+	color:#fff;
+	letter-spacing:10px;
+	border-radius:0 0 10px 10px;
+}
+
+/* ----------------------- WORK LINKS START ------------------------- */
+
+#work{
+	width:100%;
+	margin:5% auto 5% auto;
+}
+
+#work p a{
+	font-family: 'Limelight', cursive;
+	font-size:180%;
+	font-weight:normal;
+	text-align:center;
+	color:#fff;
+	margin-bottom:5%;
+	text-shadow: 0 1px 1px #000;
+	text-decoration:none;
+}
+
+#work p a:hover{
+	color:#e3ae57;
+}
+
+.item{
+	border-radius:15px;
+	width:180px;
+	height:185px;
+	background-color:#565f5e;
+	margin:10px;
+	float:left;
+	-webkit-box-shadow: 1px 1px 1px #000;
+    -moz-box-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 1px #000;  
+	overflow:hidden;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	-o-transition: box-shadow 0.2s ease-in-out;
+	-ms-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.item:hover{
+	-webkit-box-shadow: 0 0 8px #dc3d24, 0 0 8px #dc3d24;
+    -moz-box-shadow: 0 0 8px #dc3d24,  0 0 8px #dc3d24;
+    box-shadow: 0 0 8px #dc3d24,  0 0 8px #dc3d24; 
+}
+
+.item img{
+	display:block;
+	width:100%;
+	-webkit-box-shadow: 1px 1px 1px #dc3d24;
+    -moz-box-shadow: 1px 1px 1px #dc3d24;
+    box-shadow: 1px 1px 1px #dc3d24;
+	border-radius:15px 15px 0 0;
+	opacity:0.75;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+	
+}
+
+.item img:hover{
+	opacity:1;
+}
+
+.item h3{
+	font-family: 'Poiret One', cursive;
+	font-size:105%;
+	font-weight:normal;
+	padding:5px 0 0 8px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.item h3 a{
+	text-decoration:none;
+	color:#e3ae57;
+}
+
+.item p{
+	font-family: 'Poiret One', cursive;
+	font-size:70%;
+	font-weight:normal;
+	padding:0 0 0 8px;
+	color:#e3ae57;
+	text-decoration:none;
+}
+
+/* ----------------------- WORK LINKS END ------------------------- */
+
+#bottom h3{
+	margin:4% 0 1% 0;
+	font-family: 'Syncopate', sans-serif;
+	font-size:90%;
+	font-weight:400;
+	text-align:center;
+	letter-spacing: 1px;
+	color:#dc3d24;
+}
+
+footer{
+	width:100%;
+	padding:auto;
+	background-color:#565f5e;
+	float:center;
+	text-align:center; 
+}
+
+.icon{
+	width:10%;
+	float:center;
+	width:64px;
+	heigth:auto;
+	margin:10px 10px 10px 10px;
+	opacity:0.85;
+	text-align:center;
+}
+
+.icon:hover{
+	opacity:1;
+}
+
+.social{
+	color:#fff;
+}
+
+.social p{
+	float:center;
+	letter-spacing:1px;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+/* -- Make the highlight colours pretty -- */
+
+::selection      { background:#f38094; color:#FFF;}
+::-moz-selection  { background:#f38094; color:#FFF;}
+
+/* ---------------------- RESPONSIVE STUFF - ONLY TOUCH IF YOUR'E CONFIDENT WITH CSS ---------------------- */
+
+@media only screen and (max-width: 1279px) {
+	.wrapper{
+		width:90%;
+	}
+}
+
+@media only screen and (max-width: 1105px) {
+	
+	#work{
+		width:900px;
+}
+
+	.item{
+		width:164px;
+		height:170px;
+		margin:8px;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+	
+	#work{
+		width:750px;	
+}
+
+	.item{
+		width:136px;
+		height:144px;
+		margin:7px;
+	}
+	
+	.item h3{
+		font-size:90%;
+	}
+	
+	.item p{
+		font-size:60%;
+	}
+}
+
+@media only screen and (max-width: 835px) {
+	
+	#work{
+		width:650px;	
+}
+
+	.item{
+		width:116px;
+		height:121px;
+		margin:7px;
+	}
+	
+	.item h3{
+		font-size:75%;
+	}
+	
+	.item p{
+		font-size:40%;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	header h1{
+		font-size:160%;
+	}
+	
+	header h2{
+		font-size:100%;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	
+	#logo{
+		width:150px;
+		display:block;
+		margin:auto;
+		margin-bottom:5%;
+	}
+	
+	nav{
+		width:100%;
+	}
+	
+	header h1{
+		font-size:140%;
+	}
+	
+	header h2{
+		font-size:70%;
+		margin-bottom:5%;
+	}
+	
+	.left{
+		width:100%;
+	}
+	
+	.right{
+		width:100%;
+	
+	}
+	
+	#work{
+		width:460px;	
+}
+
+	.item{
+		width:210px;
+		height:215px;
+		margin:10px;
+	}
+	
+	.item h3{
+		font-size:130%;
+	}
+	
+	.item p{
+		font-size:90%;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	
+	#work{
+		width:300px;	
+	}
+
+	.item{
+		width:136px;
+		height:140px;
+		margin:7px;
+	}
+	
+	.item h3{
+		font-size:75%;
+	}
+	
+	.item p{
+		font-size:40%;
+	}
+}
+
+/* ------- END :) ------- */

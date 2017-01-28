@@ -432,11 +432,7 @@ footer{
 		width:650px;	
 }
 
-	.work-center{
-		margin: 0 auto;
-		display: block;
-		width: 550px;
-}
+	.work-center{}
 
 	.item{
 		width:116px;
@@ -498,11 +494,7 @@ footer{
 		width:460px;	
 }
 
-	.work-center{
-		margin: 0 auto;
-		display: block;
-		width: 360px;
-}
+	.work-center{}
 
 	.item{
 		width:210px;
@@ -525,11 +517,7 @@ footer{
 		width:300px;	
 	}
 
-	.work-center{
-		margin: 0 auto;
-		display: block;
-		width: 200px;
-}
+	.work-center{}
 
 	.item{
 		width:136px;

@@ -256,6 +256,12 @@ header h2{
 	color:#e3ae57;
 }
 
+.work-center{
+	margin: 0 auto;
+	display: block;
+	width: 1000px;
+}
+
 .item{
 	border-radius:15px;
 	width:180px;
@@ -378,6 +384,12 @@ footer{
 	
 	#work{
 		width:900px;
+}
+
+	.work-center{
+		margin: 0 auto;
+		display: block;
+		width: 800px;
 }
 
 	.item{

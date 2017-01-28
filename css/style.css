@@ -538,4 +538,15 @@ footer{
 	}
 }
 
+@media only screen and (max-width: 300px) {
+	
+	#work{
+		width:150px;	
+	}
+
+	.work-center{
+		width:100%;
+	}
+}
+
 /* ------- END :) ------- */

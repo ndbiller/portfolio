@@ -432,7 +432,9 @@ footer{
 		width:650px;	
 }
 
-	.work-center{}
+	.work-center{
+		width:100%;
+}
 
 	.item{
 		width:116px;

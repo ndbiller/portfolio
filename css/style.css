@@ -405,6 +405,12 @@ footer{
 		width:750px;	
 }
 
+	.work-center{
+		margin: 0 auto;
+		display: block;
+		width: 650px;
+}
+
 	.item{
 		width:136px;
 		height:144px;
@@ -424,6 +430,12 @@ footer{
 	
 	#work{
 		width:650px;	
+}
+
+	.work-center{
+		margin: 0 auto;
+		display: block;
+		width: 550px;
 }
 
 	.item{
@@ -486,6 +498,12 @@ footer{
 		width:460px;	
 }
 
+	.work-center{
+		margin: 0 auto;
+		display: block;
+		width: 360px;
+}
+
 	.item{
 		width:210px;
 		height:215px;
@@ -506,6 +524,12 @@ footer{
 	#work{
 		width:300px;	
 	}
+
+	.work-center{
+		margin: 0 auto;
+		display: block;
+		width: 200px;
+}
 
 	.item{
 		width:136px;

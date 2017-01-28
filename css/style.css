@@ -512,7 +512,7 @@ footer{
 
 @media only screen and (max-width: 510px) {
 
-	nav ul li a{
+	nav ul li a, nav ul li a:hover{
 		font-size:80%;
 	}
 	

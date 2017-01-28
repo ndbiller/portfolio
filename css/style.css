@@ -511,6 +511,10 @@ footer{
 }
 
 @media only screen and (max-width: 510px) {
+
+	nav ul li a{
+		font-size:80%;
+	}
 	
 	#work{
 		width:150px;	

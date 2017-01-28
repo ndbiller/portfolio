@@ -384,13 +384,10 @@ footer{
 	
 	#work{
 		width:900px;
-}
+	}
 
 	.work-center{
-		margin: 0 auto;
-		display: block;
-		width: 800px;
-}
+	}
 
 	.item{
 		width:164px;
@@ -403,13 +400,13 @@ footer{
 	
 	#work{
 		width:750px;	
-}
+	}
 
 	.work-center{
 		margin: 0 auto;
 		display: block;
 		width: 100%;
-}
+	}
 
 	.item{
 		width:136px;
@@ -430,11 +427,11 @@ footer{
 	
 	#work{
 		width:650px;	
-}
+	}
 
 	.work-center{
 		width:100%;
-}
+	}
 
 	.item{
 		width:116px;

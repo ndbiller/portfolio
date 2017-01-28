@@ -408,7 +408,7 @@ footer{
 	.work-center{
 		margin: 0 auto;
 		display: block;
-		width: 650px;
+		width: 100%;
 }
 
 	.item{
@@ -519,7 +519,9 @@ footer{
 		width:300px;	
 	}
 
-	.work-center{}
+	.work-center{
+		width:150px;
+	}
 
 	.item{
 		width:136px;

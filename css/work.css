@@ -184,6 +184,12 @@ header a:hover{
 	text-align:center;
 }
 
+.puk{
+	max-width:400px;
+	display:block;
+	margin:0 auto;
+}
+
 #workbody iframe.vimeo{
 	width:100%;
     display:block;
